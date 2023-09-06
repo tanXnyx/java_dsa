@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 class MyException extends Exception{
-     @Override
+      @Override
     public String toString() {
         return "I am toString()";
     }
