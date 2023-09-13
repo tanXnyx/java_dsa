@@ -1,4 +1,5 @@
 public class BackTrackingArr {
+    
     public static void ChangedArr(int arr[], int i, int val){
         //base case 
         if (i == arr.length) {
@@ -20,6 +21,6 @@ public class BackTrackingArr {
         int arr[] = new int[5];
         ChangedArr(arr, 0, 1);
         PrintArr(arr);
-}
+   }
 
 }
