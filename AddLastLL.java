@@ -14,7 +14,7 @@ public class AddLastLL {
     //adding node at last (after tail)
     public void addLast(int data){
         //create new node
-        Node newNode =new Node(data);//step-1
+        Node newNode =new Node(data); //step-1
         size++;
         if(head == null ){
             head = tail= newNode;//if linkedlist is empty then head and tail is same as the new node 
