@@ -19,7 +19,7 @@ public class AddFirstLL {
         //Check if lickedlist is empty
         if(head == null ){
             head = tail= newNode;//if linkedlist is empty then head and tail is same as the new node 
-            return;
+             return;
         }
         //Step2 = newNode next = head
         newNode.next = head;
