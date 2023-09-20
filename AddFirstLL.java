@@ -22,9 +22,9 @@ public class AddFirstLL {
              return;
         }
         //Step2 = newNode next = head
-        newNode.next = head;
-        //Step3 = head = nowNode
-        head = newNode;
+         newNode.next = head;
+         //Step3 = head = nowNode
+          head = newNode;
     }
     public static void main(String[] args) {
         AddFirstLL ll = new AddFirstLL();
