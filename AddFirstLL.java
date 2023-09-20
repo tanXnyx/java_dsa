@@ -8,8 +8,8 @@ public class AddFirstLL {
         }
     }
     public static Node head;
-    public static Node tail;
-    public static int size;
+     public static Node tail;
+      public static int size;
 
     //adding node at first (before head)
     public void addFirst(int data){
