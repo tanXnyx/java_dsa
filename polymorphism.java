@@ -18,10 +18,14 @@ public class polymorphism {
         System.out.println(calc.add(1,2));
         System.out.println(calc.add(1.2,2.5));
         System.out.println(calc.add(1,2,3));
-
+        Animal a;
+        Animal A! = new Animal;
+        a=A1;
+        a.eat();
         Deer D1 = new Deer();
-        D1.eat();
-        
+        a=D1;
+        a.eat();
+        // using dynamic method dispatch we can show both parent and child class methods
 
     }
     
