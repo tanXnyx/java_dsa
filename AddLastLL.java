@@ -10,7 +10,7 @@ public class AddLastLL {
     public static Node head;
     public static Node tail;
     public static int size;
-
+ 
     //adding node at last (after tail)
     public void addLast(int data){
         //create new node
