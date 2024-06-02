@@ -15,7 +15,7 @@ public class AddFirstLL {
     public void addFirst(int data){
         //Step1 = create new node 
         Node newNode = new Node(data);
-        size++;
+        size++; 
         //Check if lickedlist is empty
         if(head == null ){
             head = tail= newNode;//if linkedlist is empty then head and tail is same as the new node 
