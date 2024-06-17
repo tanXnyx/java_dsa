@@ -9,7 +9,7 @@ public class ArrauList {
           ArrayList<String> list1 = new ArrayList<>();
             ArrayList<Boolean> list2 = new ArrayList<>();
         // O(1)
-            list.add(1);
+            list.add(1); 
          list.add(2);
           list.add(3);
            list.add(4);
